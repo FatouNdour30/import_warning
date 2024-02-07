@@ -1,0 +1,27 @@
+#why img{
+border-radius: 30%;
+width: 90%;
+}
+#why:hover{
+    cursor: pointer;
+    transition: all 0.3ms;
+    color: yellow;
+
+}
+.card{
+    border: 1px solid yellow;
+}
+.custom-font-style {
+    /* Ajoutez votre style de police ici, par exemple : */
+    font-family: 'Arial', sans-serif;
+  }
+ .nav-item a {
+    margin-right: 20%;
+ }
+ .navbar-brand {
+    color: black !important; /* Couleur de texte de la navbar-brand */
+  }
+
+  .navbar-nav {
+    text-align: center; /* Centrer horizontalement les éléments de la liste */
+  }
