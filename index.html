@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,163 +10,156 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="container">
-  <nav class="navbar navbar-expand-lg mb-3">
-    <a class="navbar-brand fs-1 text-dark font-weight-bold custom-font-style" href="#">Snakers</a>
-    <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon text-secondary"></span>
-    </button>
-
-    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-      <ul class="navbar-nav text-center">
-        <li class="nav-item">
-          <a class="nav-link text-secondary" href="#collection">Collections</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary" href="#men">Men</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary" href="#women">Women</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-secondary" href="#contact">Contact</a>
-        </li>
-      </ul>
-
-       
-    </div>
-    <div class="navbar-text ml-auto">
-      <i class="fas fa-shopping-cart me-2"></i>
-      <span id="cart-count" class="badge bg-warning">0</span>
-      <img src="images/pexel.jpg" class="img-fluid rounded-circle me-2" alt="tof" width="50">
-    </div>
-  </nav>
-</div>
-
+  <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <a class="navbar-brand fs-1 text-dark font-weight-bold custom-font-style" href="#">Snakers</a>
+        
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Collections <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Men</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Women</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="navbar-text text-center mb-3">
+            <div class="d-sm-inline-flex justify-content-center align-items-center">
+                <i class="fas fa-shopping-cart mb-3"></i>
+                <span id="cart-count" class="badge bg-warning me-2 d-none d-sm-inline">0</span>
+                <img src="images/pexel.jpg" class="img-fluid rounded-circle ms-2" alt="tof" style="max-width: 50px; height: auto;">
+            </div>
+        </div>
+        
+        
+      </nav>
+  </div>
+  
+  
+ 
 <!-- Ligne de séparation après la navigation -->
 <div class="container">
-<hr class="nav-divider">
+  <hr class="nav-divider">
 </div>
-  <div class="container ">
-    <div class="row">
-      <div class="col-md-6 ms-md-5 pe-md-3 d-flex justify-content-center" id="antonio">
-        <div class="card mb-3 ms-md-5" style="width: 18rem;">
-          <img src="images/pexels-antonio-dillard-4462782.jpg" class="rounded img-fluid" alt="...">
-        </div>
+<div class="container ">
+  <div class="row">
+    <div class="col-md-6 ms-md-5 pe-md-3 d-flex justify-content-center" id="antonio">
+      <div class="card mb-3 ms-md-5" style="width: 18rem;">
+        <img src="images/pexels-antonio-dillard-4462782.jpg" class="rounded img-fluid" alt="...">
       </div>
+    </div>
 
-      <div class="col-md-6 mt-md-5 mb-3">
-        <div class="d-flex flex-column justify-content-between h-50">
-          <div>
-            <h5 class="text-warning mt-md-5 mb-3">SNAKER COMPANY</h5>
-            <h1 class="d-inline-block mr-3">$125.00</h1>
-            <button type="button" class="btn btn-warning btn-sm d-inline-block mb-3">50%</button>
-            <p>These low sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
-            <h6 class="text-secondary">$250.00</h6>
-          </div>
-          <div class="btn-toolbar border-black" role="toolbar" aria-label="Toolbar with button groups">
-            <div class="btn-group me-2" role="group" aria-label="First group">
-              <button type="button" class="btn btn-white text-warning fs-4 decrease-quantity">-</button>
-              <button type="button" class="btn btn-white text-dark fs-4 quantity">0</button>
-              <button type="button" class="btn btn-white text-warning fs-4 increase-quantity">+</button>
-              <button type="button" class="btn btn-warning ms-md-3 add-to-cart" data-product="Product 1" data-price="20.00">
-                <i class="fas fa-shopping-cart ms-md-5 "></i>
-                Add to cart
-              </button>
-            </div>
+    <div class="col-md-6 mt-md-5 mb-3">
+      <div class="d-flex flex-column justify-content-between h-50">
+<div>  
+          <h5 class="text-warning mt-md-5 mb-3">SNAKER COMPANY</h5>
+          <h1 class="d-inline-block mr-3">$125.00</h1>
+          <button type="button" class="btn btn-warning btn-sm d-inline-block mb-3">50%</button>
+          <p>These low sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+          <h6 class="text-secondary">$250.00</h6>
+        </div>
+        <div class="btn-toolbar border-black" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group me-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-white text-warning fs-4 decrease-quantity">-</button>
+            <button type="button" class="btn btn-white text-dark fs-4 quantity">0</button>
+            <button type="button" class="btn btn-white text-warning fs-4 increase-quantity">+</button>
+            <button type="button" class="btn btn-warning ms-md-3 add-to-cart mb-3" data-product="Product 1" data-price="20.00">
+              <i class="fas fa-shopping-cart ms-md-5 "></i>
+              Add to cart
+            </button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container mb-3">
-    <div class="row">
-      <div class="col-md-6 ">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="card col-md-4" id="why">
-                  <img src="images/image1.jpg" class="
-                  card-img-top img-fluid" alt="Image" onclick="showModal('images/image1.jpg', 'Some quick example text for Image 1.')" width="1001">
-                </div>
-                <div class="card col-md-4" id="why">
-                  <img src="images/one-removebg-preview.png" class="card-img-top img-fluid" alt="Image 2" onclick="showModal('images/one-removebg-preview.png', 'Some quick example text for Image 2.')">
-                </div>
-                <div class="card col-md-4" id="why">
-                  <img src="images/image1.jpg" class="
-                  card-img-top img-fluid" alt="Image" onclick="showModal('images/image1.jpg', 'Some quick example text for Image 1.')" width="1001">
-                  <div class="card-body"></div>
-                </div>
+</div>
+<div class="container mb-3">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <div id="myCarousel" class="carousel slide mb-3" data-ride="carousel">
+        <div class="carousel-inner mb-3">
+          <div class="carousel-item active mb-3">
+            <div class="row mb-3">
+              <div class="card col-md-4 mb-3" id="why">
+                <img src="images/image1.jpg" class="card-img-top img-fluid" alt="Image" onclick="showModal('images/image1.jpg', 'Some quick example text for Image 1.')" width="1001">
               </div>
-            </div>
-            <!-- Ajoutez d'autres items de carrousel ici -->
-            <div class="carousel-item">
-              <div class="row">
-                <div class="card col-md-4" id="why">
-                  <img src="images/shyam-removebg-preview.png" class="card-img-top img-fluid" alt="Image 4" onclick="showModal('images/shyam-removebg-preview.png', 'Some quick example text for Image 4.')" width="60">
-                  <div class="card-body"></div>
-                </div>
-                <div class="card col-md-4" id="why">
-                  <img src="images/shyam-removebg-preview.png" class="card-img-top img-fluid" alt="Image 4" onclick="showModal('images/shyam-removebg-preview.png',)" width="60">
-                  <div class="card-body"></div>
-                </div>
-                <div class="card col-md-4" id="why">
-                  <img src="images/shyam-removebg-preview.png" class="card-img-top img-fluid" alt="Image 4" onclick="showModal('images/shyam-removebg-preview.png',)" width="60">
-                  <div class="card-body"></div>
-                </div>
-                <!-- Ajoutez d'autres cartes ici -->
+              <div class="card col-md-4 mb-3" id="why">
+                <img src="images/one-removebg-preview.png" class="card-img-top img-fluid" alt="Image 2" onclick="showModal('images/one-removebg-preview.png', 'Some quick example text for Image 2.')">
+              </div>
+              <div class="card col-md-4 mb-3" id="why">
+                <img src="images/image1.jpg" class="card-img-top img-fluid" alt="Image" onclick="showModal('images/image1.jpg', 'Some quick example text for Image 1.')" width="1001">
+                <div class="card-body"></div>
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="card col-md-4 mb-0" id="why">
+                <img src="images/shyam-removebg-preview.png" class="card-img-top img-fluid  mb-0" alt="Image 4" onclick="showModal('images/shyam-removebg-preview.png', 'Some quick example text for Image 4.')" width="60">
+                <div class="card-body"></div>
+              </div>
+              <div class="card col-md-4  mb-0" id="why">
+                <img src="images/shyam-removebg-preview.png" class="card-img-top img-fluid mb-0 " alt="Image 4" onclick="showModal('images/shyam-removebg-preview.png')" width="60">
+                <div class="card-body"></div>
+              </div>
+              <div class="card col-md-4" id="why">
+                <img src="images/shyam-removebg-preview.png" class="card-img-top img-fluid mb-0 " alt="Image 4" onclick="showModal('images/shyam-removebg-preview.png')" width="60">
+                <div class="card-body"></div>
+              </div>
+              <!-- Ajoutez d'autres cartes ici -->
+            </div>
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+    </div>
 
-      <div class="modal" id="imageModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content border-0">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body p-0 text-center">
-              <img id="modalImage" src="images/Capture d'écran 2024-01-29 004622.png" class="img-fluid" alt="Image en plein écran">
-            </div>
+    <div class="modal" id="imageModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content border-0">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-0 text-center">
+            <img id="modalImage" src="images/Capture d'écran 2024-01-29 004622.png" class="img-fluid" alt="Image en plein écran">
           </div>
         </div>
       </div>
     </div>
   </div>
-<script src="app.js"></script>  
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+
+
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
