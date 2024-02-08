@@ -1,13 +1,11 @@
+ // Modal
+  function showModal(imageSrc, caption) {
+      var modalImage = document.getElementById('modalImage');
+      modalImage.src = imageSrc;
+      $('#imageModal').modal('show');
+    }
 
-
-// Modal
-function showModal(imageSrc, caption) {
-    var modalImage = document.getElementById('modalImage');
-    modalImage.src = imageSrc;
-    $('#imageModal').modal('show');
-  }
-
-
+  // JavaScript pour le panier
   $(document).ready(function () {
       var cartItems = []; // Tableau pour stocker les éléments du panier
       var cartCount = $('#cart-count'); // Élément pour afficher le nombre d'articles dans le panier
